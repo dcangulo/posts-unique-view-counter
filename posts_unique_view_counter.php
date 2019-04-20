@@ -1,4 +1,31 @@
 <?php
+/*
+  Plugin Name: Posts Unique View Counter
+  Plugin URI: https://www.davidangulo.xyz/portfolio/posts-unique-view-counter/
+  Description: Upon activation, it will allow you to easily display how many times a post have been uniquely viewed.
+  Version: 1.2.0
+  Author: David Angulo
+  Author URI: https://www.davidangulo.xyz/
+  Requires at least: 4.8.5
+  Tested Up to: 5.1.1
+  License: GPL2
+*/
+
+/*
+  Copyright 2019 David Angulo (email: hello@davidangulo.xyz)
+
+  This program is free software; you can redistribute it and/or
+  modify it under the terms of the GNU General Public License
+  as published by the Free Software Foundation; either version 2
+  of the License, or (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+*/
+
+
 class PostsUniqueViewCounter {
 
   private $wpdb;
@@ -18,7 +45,7 @@ class PostsUniqueViewCounter {
     add_filter('manage_posts_columns', array($this, 'puvc_column_head'));
     add_filter('manage_edit-post_sortable_columns', array($this, 'puvc_column_head'));
     add_action('manage_posts_custom_column', array($this, 'puvc_column_content'), 10, 2);
-    add_filter('request',array($this, 'puvc_sort_views_column'));
+    add_filter('request', array($this, 'puvc_sort_views_column'));
   }
 
   public function puvc_column_head($columns) {
@@ -45,15 +72,13 @@ class PostsUniqueViewCounter {
   }
 
   public function puvc_create_db_table() {
-    ;
-    $charset_collate = $this->wpdb->get_charset_collate();
     $sql = "CREATE TABLE `$this->table_name` (
         `puvc_id` int(11) NOT NULL,
         `puvc_title` varchar(220) DEFAULT NULL,
         `puvc_permalink` varchar(220) DEFAULT NULL,
         `puvc_view_count` int(11) DEFAULT '1',
         PRIMARY KEY(puvc_id)
-      ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+      );
     ";
 
     if ( $this->wpdb->get_var("SHOW TABLES LIKE '$this->table_name'") != $this->table_name ) {
@@ -91,4 +116,7 @@ class PostsUniqueViewCounter {
     return $content;
   }
 }
+
+$posts_unique_view_counter = new PostsUniqueViewCounter;
+
 ?>
