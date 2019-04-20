@@ -7,10 +7,10 @@ Tags: post, views, counter, hits, analytics, post counter, post hits, post views
 Author URI: https://www.davidangulo.xyz/
 Author: David Angulo
 Requires at least: 4.8.5
-Tested up to: 4.9.4
-Version: 1.1
+Tested up to: 5.1.1
+Version: 1.2.0
 Stable tag: trunk
-License: GPLv2 or later
+License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Upon activation, it will allow you to easily display how many times a post have been uniquely viewed.
@@ -42,6 +42,8 @@ Find my other works here: <a href="https://www.davidangulo.xyz/portfolio/" targe
 
 == Installation ==
 
+For step by step installation guide with visuals you may refer to this <a href="https://www.davidangulo.xyz/how-to-display-number-of-post-views-wordpress/" target="_blank">link</a> instead.
+
 1. In your WordPress admin menu on the left hover to Plugins and click Add New.
 2. Enter "Posts Unique View Counter" in the text box in the upper right corner.
 3. Find the plugin entitled Posts Unique View Counter By David Angulo then click Install Now.
@@ -50,7 +52,7 @@ Find my other works here: <a href="https://www.davidangulo.xyz/portfolio/" targe
 
 == Frequently Asked Questions ==
 
-Do you have any question? You may contact me using the email hello@davidangulo.xyz or use the contact form on my website at <a href="https://www.davidangulo.xyz/contact/" target="_blank">https://www.davidangulo.xyz/contact/</a>
+Do you have any question? You may contact me using the email <a href="mailto:hello@davidangulo.xyz">hello@davidangulo.xyz</a>
 
 == Screenshots ==
 
@@ -58,10 +60,14 @@ Do you have any question? You may contact me using the email hello@davidangulo.x
 2. Posts Unique View Counter sortable view count column in the All Posts page.
 
 == Changelog ==
-= 1.1 = 
+= 1.2.0 =
+* Tested against WordPress 5.0 and above.
+* Optimized code.
+
+= 1.1.0 =
 * Added view count on All Posts page.
 * Added another screenshot.
 * Updated the plugin description.
 
-= 1.0 =
+= 1.0.0 =
 * Initial release.
