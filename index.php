@@ -2,7 +2,7 @@
 /*
   Plugin Name: Posts Unique View Counter
   Plugin URI: https://www.davidangulo.xyz/portfolio/posts-unique-view-counter/
-  Description: Easily count unqiue views of your posts.
+  Description: Easily count unique views of your posts.
   Version: 1.3.0.1
   Author: David Angulo
   Author URI: https://www.davidangulo.xyz/
