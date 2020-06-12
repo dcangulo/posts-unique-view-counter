@@ -3,11 +3,11 @@
   Plugin Name: Posts Unique View Counter
   Plugin URI: https://www.davidangulo.xyz/portfolio/posts-unique-view-counter/
   Description: Easily count unqiue views of your posts.
-  Version: 1.3.0.0
+  Version: 1.3.0.1
   Author: David Angulo
   Author URI: https://www.davidangulo.xyz/
   Requires at least: 4.8.5
-  Tested Up to: 5.4.1
+  Tested Up to: 5.4.2
   License: GPL2
 */
 
