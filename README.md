@@ -1,14 +1,12 @@
 ![](assets/screenshot-1.jpg)
 
 # Posts Unique View Counter
-[![GitHub version](https://img.shields.io/wordpress/plugin/v/posts-unique-view-counter?color=brightgreen&style=for-the-badge)](https://wordpress.org/plugins/posts-unique-view-counter/)
-[![GPLv2 license](https://img.shields.io/badge/License-GPLv2-blue.svg?style=for-the-badge)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blueviolet.svg?style=for-the-badge)](https://github.com/dcangulo/posts-unique-view-counter/pulls)
-[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg?style=for-the-badge)](https://wordpress.org/support/plugin/posts-unique-view-counter/reviews/#new-post)
+[![GitHub version](https://img.shields.io/wordpress/plugin/v/posts-unique-view-counter?color=brightgreen&style=for-the-badge&labelColor=000000)](https://wordpress.org/plugins/posts-unique-view-counter/)
+[![GPLv2 license](https://img.shields.io/badge/License-GPLv2-blue.svg?style=for-the-badge&labelColor=000000)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-hotpink.svg?style=for-the-badge&labelColor=000000)](https://github.com/dcangulo/posts-unique-view-counter/pulls)
+[![saythanks](https://img.shields.io/badge/say-thanks-blueviolet.svg?style=for-the-badge&labelColor=000000)](https://wordpress.org/support/plugin/posts-unique-view-counter/reviews/#new-post)
 
 Easily count unique views of your posts.
-
-Just install the plugin and the counting begins. No coding skills needed.
 
 ## How does it work?
 * All views of the post will start at zero (0) upon the plugin installation.
@@ -16,10 +14,6 @@ Just install the plugin and the counting begins. No coding skills needed.
 * The cookie expires after a month, so if the same person viewed your post after the cookie expires it will count as another view.
 * Visitors who use "incognito" or something similar will be counted always as a unique visitor because "incognito" mode does not save cookies.
 * One (1) visitor = One (1) cookie.
-
-Please rate and review the plugin if you find it useful.
-
-Find my other works here: [https://www.davidangulo.xyz/portfolio/](https://www.davidangulo.xyz/portfolio/)
 
 ## Installation
 
@@ -33,10 +27,6 @@ Find my other works here: [https://www.davidangulo.xyz/portfolio/](https://www.d
 composer require wpackagist-plugin/posts-unique-view-counter
 ```
 
-## Frequently Asked Questions
-
-Do you have any question/s? You may contact me using the email [hello@davidangulo.xyz](mailto:hello@davidangulo.xyz)
-
 ## Screenshots
 
 1. [Posts Unique View Counter running on Twenty Twenty theme](assets/screenshot-1.jpg).
@@ -44,4 +34,4 @@ Do you have any question/s? You may contact me using the email [hello@davidangul
 3. [Posts Unique View Counter settings](assets/screenshot-3.jpg).
 
 ## License
-Copyright © 2020 David Angulo, released under the GPL2 license, see [LICENSE](LICENSE).
+Copyright © 2022 David Angulo, released under the GPL2 license, see [LICENSE](LICENSE).

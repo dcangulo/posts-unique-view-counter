@@ -1,9 +1,9 @@
 === Posts Unique View Counter ===
 Contributors: dcangulo
-Plugin URI: Plugin URI: https://www.davidangulo.xyz/portfolio/posts-unique-view-counter/
+Plugin URI: Plugin URI: https://github.com/dcangulo/posts-unique-view-counter
 Tags: post, views, counter, hits, analytics, post counter, post hits, post views
 Requires at least: 4.8.5
-Tested up to: 5.4.2
+Tested up to: 5.9.0
 Requires PHP: 7.2
 Stable tag: trunk
 License: GPL2
@@ -43,6 +43,9 @@ Do you have any question/s? You may contact me using the email [hello@davidangul
 3. Posts Unique View Counter settings.
 
 == Changelog ==
+
+= 1.4.0 =
+* Test against WordPress 5.9.0.
 
 = 1.3.0.1 =
 * Updated screenshots.
